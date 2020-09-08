@@ -14,3 +14,5 @@ gst
 git add .
 git commit -m 'third'
 gst
+
+python3 syntaxRecap.py

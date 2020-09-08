@@ -1,0 +1,32 @@
+#Python syntax recap
+
+print('variables and constants...')
+x = 5 
+y = 3
+z = 7
+q = 'word'
+a = 'the '
+
+print('x = ')
+print(x)
+print('x + y = ')
+print(x + y)
+print('q = ')
+print(q)
+print('a + q = ')
+print(a + q)
+
+print('--------------------------')
+print('numbers...')
+
+print("8 / 3 = ")
+print(8 / 3)
+print("2 ** 3 = ")
+print(2 ** 3)
+# arithmetic sequence: **, * /, + -
+print(" 1 + 2 * 3 ** 4 / 5 - 6 = ")
+print( 1 + 2 * 3 ** 4 / 5 - 6)
+print(' ((1 + 2) * 3) ** 4 / 5 - 6 = ')
+print( ((1 + 2) * 3) ** 4 / 5 - 6)
+
+print('--------------------------')

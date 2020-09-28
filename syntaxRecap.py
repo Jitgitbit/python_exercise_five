@@ -45,3 +45,14 @@ print('restrictions on data types naming...')
 print("a-z, A-Z, 0-9, and _ are allowed")
 print("@ and % are not allowed")
 print("numbers can not be placed in the beginning of the name!")
+
+print('--------------------------')
+print('casting, or changing type...')
+
+x = 2
+print("x = ")
+print(x)
+
+x = float(2)
+print("x = ")
+print(x)

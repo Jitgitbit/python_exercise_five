@@ -56,3 +56,24 @@ print(x)
 x = float(2)
 print("x = ")
 print(x)
+
+print('--------------------------')
+print('methods...')
+
+x = "water"
+print("x = ")
+print(x)
+
+x = x.upper()
+print("x = ")
+print(x)
+
+x = x.title()
+print("x = ")
+print(x)
+
+print( )
+showMeAllExistingMethodsForStrings = dir("string")
+print("showMeAllExistingMethodsForStrings = ")
+print( )
+print(showMeAllExistingMethodsForStrings)

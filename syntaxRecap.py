@@ -77,3 +77,36 @@ showMeAllExistingMethodsForStrings = dir("string")
 print("showMeAllExistingMethodsForStrings = ")
 print( )
 print(showMeAllExistingMethodsForStrings)
+
+print('--------------------------')
+print('indexing and slicing...')
+
+y = "hello world"
+x = y[6]
+print("y = ")
+print(y)
+print("x = ")
+print(x)
+
+print( )
+z = y.replace('l', 'r')
+print("z = ")
+print(z)
+
+print( )
+w = y[6:11]
+print("w = ")
+print(w)
+
+print( )
+h = y[0:5]
+print("h = ")
+print(h)
+h = y[:5]
+print("h = ")
+print(h)
+
+print( )
+hoei = y[-4:-1]
+print("hoei = ")
+print(hoei)

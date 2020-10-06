@@ -1,7 +1,8 @@
 #Python syntax recap
 #===================
+print( )
 print('variables and constants...')
-
+print('==========================')
 x = 5 
 y = 3
 z = 7
@@ -17,8 +18,9 @@ print('a + q = ')
 print(a + q)
 
 print('--------------------------')
+print( )
 print('numbers...')
-
+print('==========================')
 print("8 / 3 = ")
 print(8 / 3)
 print("2 ** 3 = ")
@@ -30,8 +32,9 @@ print(' ((1 + 2) * 3) ** 4 / 5 - 6 = ')
 print( ((1 + 2) * 3) ** 4 / 5 - 6)
 
 print('--------------------------')
+print( )
 print('dynamic typing...')
-
+print('==========================')
 b = "Alex"
 b = "blah"
 b = 1234
@@ -39,14 +42,17 @@ print("b = ")
 print(b)
 
 print('--------------------------')
+print( )
 print('restrictions on data types naming...')
-
+print('==========================')
 print("a-z, A-Z, 0-9, and _ are allowed")
 print("@ and % are not allowed")
 print("numbers can not be placed in the beginning of the name!")
 
 print('--------------------------')
+print( )
 print('casting, or changing type...')
+print('==========================')
 x = 2
 print("x = ")
 print(x)
@@ -55,8 +61,9 @@ print("x = ")
 print(x)
 
 print('--------------------------')
+print( )
 print('methods...')
-
+print('==========================')
 x = "water"
 print("x = ")
 print(x)
@@ -73,8 +80,9 @@ print( )
 print(showMeAllExistingMethodsForStrings)
 
 print('--------------------------')
+print( )
 print('indexing and slicing...')
-
+print('==========================')
 y = "hello world"
 x = y[6]
 print("y = ")
@@ -102,8 +110,9 @@ print("hoei = ")
 print(hoei)
 
 print('--------------------------')
+print( )
 print('string formatting...')
-
+print('==========================')
 x = "Alex"
 y = 33
 z = f"My name is {x} and my age is {y}"
@@ -122,8 +131,9 @@ print("y = ")
 print(y)
 
 print('--------------------------')
+print( )
 print('Lists...')
-
+print('==========================')
 x = ["Alex", "red", "blue", "green", "void", 3, 4.3]
 print("x = ")
 print(x)
@@ -164,8 +174,9 @@ print("x = ")
 print(x)
 
 print('--------------------------')
+print( )
 print('Tuples...')
-
+print('==========================')
 x = ("Alex", "red", "blue", "green", "void", 3, 4.3)
 print("x = ")
 print(x)
@@ -190,8 +201,9 @@ print( )
 print("Tuples are a lot like lists, except that they can not be edited!")
 
 print('--------------------------')
+print( )
 print('Dictionaries...')
-
+print('==========================')
 x = {"number": 3, "name": "Alex", "age": 37}
 print("x = ")
 print(x)
@@ -221,6 +233,11 @@ print(x)
 print( )
 print("Removing pairs:")
 x.pop("age")
+print("x = ")
+print(x)
+print( )
+print("Removing pairs:")
+x.popitem()
 print("x = ")
 print(x)
 print( )

@@ -242,3 +242,16 @@ print("x = ")
 print(x)
 print( )
 print("Dictionaries are also a lot like lists, except that they consist of key:value pairs! (and the key is named)")
+
+print('--------------------------')
+print( )
+print('Boolean...')
+print('==========================')
+x = 4 < 50000
+print("x = ")
+print(x)
+print( )
+x = 4 > 50000
+print("x = ")
+print(x)
+print("Well I had to mention them at least. lol")

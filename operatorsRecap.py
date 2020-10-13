@@ -55,5 +55,7 @@ print('e' in x)
 print('not in')
 print('--------------------------')
 print('bitwise operators...')
-
+print('AND is written &')
+print('OR is written |')
+print('there is more, but at this point not relevant yet.')
 print('--------------------------')

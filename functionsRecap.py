@@ -1,7 +1,7 @@
 #Functions in Python recap
 #=========================
 print( )
-print("User Input in python")
+print("User Input in python...")
 print('==========================')
 print('For using strings:')
 x = input('Write the first value ')
@@ -23,7 +23,7 @@ print('z = int(x) + int(y)')
 print(a)
 print('--------------------------')
 print( )
-print("Converters in python")
+print("Converters in python...")
 print('==========================')
 celsius = input('Enter the temperature in celsius ')
 celsius = int(celsius)
@@ -38,7 +38,8 @@ print("hours = int(minutes)/60 + int(seconds)/3600")
 print(hours)
 print('--------------------------')
 print( )
-print("Basic concept of a function in python")
+print("Basic concept of a function in python...")
+print('==========================')
 def add(x,y):
 	z = x + y
 	return z
@@ -48,4 +49,28 @@ b = 5
 c = add(a,b)
 print('c = add(a,b)')
 print(c)
+print('--------------------------')
+print( )
+print("Functions and User Input in python...")
 print('==========================')
+def add(x,y):
+	z = x ** y
+	return print(z)
+
+a = input('Enter the first value ')
+b = input('Enter the second value ')
+a = int(a)
+b = int(b)
+add(a,b)
+print('--------------------------')
+print( )
+print("Using a default Parameter in python...")
+print('==========================')
+def add(x,y = 12):
+	z = x - y
+	return print(z)
+
+a = input('Enter the first value ')
+a = int(a)
+add(a)
+print('--------------------------')

@@ -16,3 +16,4 @@ git commit -m 'third'
 gst
 
 python3 syntaxRecap.py
+and so on...

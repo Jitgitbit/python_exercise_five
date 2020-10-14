@@ -37,3 +37,15 @@ hours = int(minutes)/60 + int(seconds)/3600
 print("hours = int(minutes)/60 + int(seconds)/3600")
 print(hours)
 print('--------------------------')
+print( )
+print("Basic concept of a function in python")
+def add(x,y):
+	z = x + y
+	return z
+
+a = 3
+b = 5
+c = add(a,b)
+print('c = add(a,b)')
+print(c)
+print('==========================')

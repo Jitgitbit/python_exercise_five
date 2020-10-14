@@ -1,5 +1,5 @@
-#Operators in py recap
-#===================
+#Operators in Python recap
+#=========================
 print( )
 print("Types of operators in python")
 print('==========================')

@@ -95,3 +95,17 @@ s = input('Enter the nr of seconds here ')
 s = int(s)
 time(m,s)
 print('--------------------------')
+print( )
+print("Using if/else in python...")
+print('==========================')
+def divide(x,y):
+	if(y == 0):
+		return print("Nope, can't compute that, no dividing by zero!")
+	else:
+		z = x / y
+		return print(z)
+	
+x = input('Enter the first value ')
+y = input('Enter the divider here ')
+divide(int(x), int(y))
+print('--------------------------')

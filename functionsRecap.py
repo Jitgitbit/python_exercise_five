@@ -74,3 +74,24 @@ a = input('Enter the first value ')
 a = int(a)
 add(a)
 print('--------------------------')
+print( )
+print("Using converters in functions in python...")
+print('==========================')
+def temp(c):
+	f = (9/5)*c + 32
+	return print(f)
+
+c = input('Enter the temperature in celsius ')
+c = int(c)
+temp(c)
+print('- - - - - - - - - - - - - -')
+def time(m,s):
+	h = m/60 + s/3600
+	return print(h)
+
+m = input('Enter the nr of minutes here ')
+m = int(m)
+s = input('Enter the nr of seconds here ')
+s = int(s)
+time(m,s)
+print('--------------------------')

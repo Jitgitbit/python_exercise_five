@@ -27,3 +27,15 @@ else:
 	print("They are not equal, x is smaller than y")
 
 print('--------------------------')
+print( )
+print("Playing with conditions in python...")
+print('==========================')
+x = "fade"
+y = input("enter password ")
+
+if(x == y):
+	print("x and y are equal, password correct.")
+else:
+	print("They are not equal")
+
+print('--------------------------')

@@ -39,3 +39,18 @@ else:
 	print("They are not equal")
 
 print('--------------------------')
+print( )
+print("Multiple conditions in python...")
+print('==========================')
+x = 3
+y = 3
+z = 4
+
+if(x == y and x == z):
+	print("x, y and z are all equal")
+elif(x == y and x != z):
+	print("x is equal to y, but different from z")
+else:
+	print("x, y and z are all different")
+
+print('--------------------------')

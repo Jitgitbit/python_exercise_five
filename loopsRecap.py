@@ -25,3 +25,14 @@ for i in x:
 print("The new list of names is: ")
 print(x)
 print('--------------------------')
+print( )
+print("While loops in python...")
+print('==========================')
+
+i = 0
+
+while i < 77:
+	print(i)
+	i += 12
+
+print('--------------------------')

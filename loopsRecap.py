@@ -36,3 +36,11 @@ while i < 77:
 	i += 12
 
 print('--------------------------')
+print( )
+print("Looping through a string in python...")
+print('==========================')
+
+for i in "Blueberry":
+	print(i)
+
+print('--------------------------')

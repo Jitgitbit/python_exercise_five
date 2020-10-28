@@ -80,3 +80,16 @@ for i in x:
 	print(i)
 	
 print('--------------------------')
+print( )
+print("range() in python...")
+print('==========================')
+
+for i in range(4,10):
+	print(i)
+print('- - - - - - - - - - - - - -')
+print("range(starting point, range, order)")
+
+for x in range(0, 101, 5):
+	print(x)
+	
+print('--------------------------')

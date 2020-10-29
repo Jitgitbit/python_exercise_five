@@ -103,3 +103,21 @@ else:
 	print("Now all seats are taken, it's over.")
 	
 print('--------------------------')
+print( )
+print("Nested loops in python...")
+print('==========================')
+
+x = ["small","medium-size","large"]
+y = ["iron","cupper","silver","gold"]
+
+a = 0
+b = 0
+
+for i in x:
+	for j in y:
+		print(x[a],y[b])
+		b += 1
+	a += 1
+	b = 0
+
+print('--------------------------')

@@ -93,3 +93,13 @@ for x in range(0, 101, 5):
 	print(x)
 	
 print('--------------------------')
+print( )
+print("Else in for loop in python...")
+print('==========================')
+
+for x in range(10):
+	print(x)
+else:
+	print("Now all seats are taken, it's over.")
+	
+print('--------------------------')

@@ -1,6 +1,6 @@
 git init
 git add .
-git commit - 'first'
+git commit -m 'first'
 gst
 
 git add .
